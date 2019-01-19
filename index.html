@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alessandro Sousa - Desenvolvedor</title>
+	<meta charset=utf-8 lang="pt-br">
+	<meta name=description content="desenvolvimento, programação, front-end, back-end, full-stack, desenvolvimento web, alessandro sousa, alessandrosousa, alessandro desenvolvedor">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome_all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+	<link rel="stylesheet" href="css/simple-sidebar.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/sweetalert.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="rx">
+					<div class="user-view">
+						<div class="background">
+							<img src="img/estacao.jpg">
+						</div>
+						<a href="#user"><img class="circle" src="img/ale.jpg"></a>
+						<a href="#name"><span class="text-white name">Alessandro Sousa</span></a>
+						<a href="#email"><span class="text-white email">alessandro.anali@gmail.com</span></a>
+					</div>	
+				</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#experiencias">Experiencias</a></li>
+				<!-- <li><a href="#servicos">Serviços</a></li> -->
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</div>
+		<!-- botão para chamara e ocultar o menu -->
+		<a id="menu-toggle" href="#" class="btn btn-secondary btn-lg toggle sidenav-trigger py-1 px-2  m-1"><i class="fa fa-bars"></i></a>
+		<!-- home -->
+		<header id="home">
+			<div id="imgcode" class="imgcode row justify-content-center align-items-center">
+				<div class="col-sm-12" id="bkgImg">
+					<h1 class="pt-5 text-white text-center timmana">Alessandro Sousa</h1>
+					<h2 class="text-white text-center timmana">Desenvolvedor Full-Stack</h2>
+					<!-- <h4 class="pb-5 text-white text-center timmana">Entre em contato <a href="#">clicando aqui.</a></h4> -->
+					<div class="text-center pb-5">
+						<a href="#sobre" class="btn btn-outline-light btns"><i class="fas fa-angle-double-down"></i> Saiba Mais</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Sobre -->
+		<section id="sobre" class="jumbotron py-5">
+			<article class="container">
+				<h2 class="mb-2 text-center">Sobre</h2>
+				<hr class="small">
+				<img src="img/ale2.jpg" class="rounded float-left mr-3" alt="Alessandro Sousa" id="perfil" width="180px">
+				<p class="mt-4">
+				Me chamo Alessandro Sousa, nascido na cidade Belém no Estado do Pará, possuo experiencia com desenvolvimento de sistemas web assim como em Analise e modelagem de Sistemas e bancos de dados alem de possuir vivência na área de telecom e com indicadores de desempenho/qualidade.</p><p>
+				Desenvolvimento e Customizações de Websites e Landing Pages.</p><p>
+					Para saber mais entre em <a href="#contato">contato.</a>
+				</p>
+			</article>
+		</section>
+		<!-- Experiencia -->
+		<section id="experiencias" class="pb-2">
+			<article class="container">
+				<h2 class="mb-2 text-center">Experiência Profissional</h2>
+				<hr class="small">
+				<div class="row">
+					<div class="col-md">
+						<h5>Empregos</h5>
+						<div class="accordion" id="expProf">
+							<div class="card">
+								<div class="card-header p-1" id="headingOne">
+									<h6>
+										<a class="" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+											Desenvolvedor Full-Stack
+										</a>
+									</h6>
+								</div>
+
+								<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#expProf">
+									<div class="card-body">
+										PRODEPA - Empresa de Tecnologia da Informação e Comunicação do Estado do Pará
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header p-1" id="headingTwo">
+									<h6>
+										<a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											Analista de Controle Operacional
+										</a>
+									</h6>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#expProf">
+									<div class="card-body">
+										RM - TELECOM
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header p-1" id="headingThree">
+									<h6>
+										<a class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											Analista de Qualidade
+										</a>
+									</h6>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#expProf">
+									<div class="card-body">
+										RM - TELECOM
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header p-1" id="headingThree">
+									<h6>
+										<a class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											BackOffice
+										</a>
+									</h6>
+								</div>
+								<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#expProf">
+									<div class="card-body">
+										CONSTRAM
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<h5>Conhecimentos técnicos</h5>
+						<ul id="languages" class="languages">
+							<li class="item">Desenvolvimento: 
+								<p>PHP, WordPress, JavaScript, jQuery, Angular, JSON, Ajax, XHTML, HTML5, CSS, BootStrap, Materialize, XML, UML, GIT, Scrum</p>
+							</li>
+						</ul>
+						<ul id="banco" class="banco">
+							<li>Banco de Dados: 
+								<p>Modelagem de Dados, MySQL, PostgreSQL, SQL Server, Oracle</p>
+							</li>
+						</ul>
+						<ul id="ferramentas" class="ferramentas">
+							<li>Ferramentas: 
+								<p>Visual Code, PhpStorm, SublimeText, NetBeans, HeidiSQL, MySQL Workbench, Trello, Photoshop, Illustrator, Filezilla, ScriptCase, DBDesigner, Corel Draw, white belt (six sigma)</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md">
+						<h5>Formação</h5>
+						<p>Bacharel em Sistemas de Informação pela Universidade Estácio FAP</p>
+					</div>
+				</div>
+			</article>
+		</section>
+		
+		<hr class="small">
+
+		<section id="projetos" class="">
+			<article class="container">
+				<h2 class="text-center">Projetos</h2>
+				<hr class="small">
+				<div class="row">
+					<figure class="col-sm-6 col-md-4 px-5">
+					    <img src="img/bolao_min.png" class="">
+					    <figcaption class="text-center">lk.bolaodosamigos.net.br</figcaption>
+					</figure>
+					<figure class="col-sm-6 col-md-4 px-5">
+					    <img src="img/loan_min.png" class="">
+					    <figcaption class="text-center">loanmanagement.ams2.life</figcaption>
+					</figure>
+					<figure class="col-sm-6 col-md-4 px-5">
+					    <img src="img/pfcalc_min.png" class="">
+					    <figcaption class="text-center">PfCalc</figcaption>
+					</figure>
+				</div>
+			</article>
+		</section>
+
+		<section id="contato" class="jumbotron p-3 mb-1">
+			<article class="container" >
+				<h2 class="text-center">Entre em contato</h2>
+				<hr class="small">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="nome form-group ">
+							<label for="nome">Nome</label>
+							<input type="text" id="nome" class="form-control" placeholder="Seu nome" required="required" name="nome" />
+						</div>
+						<div class="email2 form-group">
+							<label for="email2">Email</label>
+							<input type="email" id="email2" class="form-control" placeholder="seu_email@email.com" required="required" name="email2" autocomplete="off"/>
+						</div>
+						<div class="fone form-group">
+							<label for="fone">Fone</label>
+							<input type="text" id="fone" class="form-control" placeholder="(99)99999-9999" name="fone" />
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="assunto form-group">
+							<label for="assunto">Assunto</label>
+							<input type="text" id="assunto" class="form-control" required="required" placeholder="Assunto" name="assunto" />
+						</div>
+						<div class="mensagem form-group">
+							<label for="mensagem">Mensagem</label>
+							<textarea placeholder="Deixe sua mensagem" class="form-control" required="required" id="mensagem" rows="5"></textarea>
+						</div>
+					</div>
+					<div class="col-12 text-center">
+						<button class="btn btn-outline-secondary" id="enviar">Enviar</button>
+					</div>
+				</div>
+			</article>	
+		</section>
+		<footer class="rodape">
+			<p class="t_ftr">Desenvolvido por: Alessandro sousa</p>
+			<p class="t_ftr">&copy; Copyright 2019 - All Rights Reserved</p>
+		</footer> 
+	</div>
+</body>
+</html>

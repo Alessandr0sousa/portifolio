@@ -1,0 +1,142 @@
+body{
+  height: 100%
+}
+
+html {
+ height: 100%;
+}
+
+ul.sidenav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(253,253,253,0.7);
+  position: fixed;
+  z-index: 10;
+}
+
+.background img{
+  width: 250px;
+}
+
+.circle, .name, .email{
+  margin-bottom: 1%;
+  margin-left: 1.5%;
+  position: absolute;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  /*font-weight: bold;*/
+  /*border-bottom: solid 0.2px;*/
+}
+
+.name{
+  margin-top: -56px;
+  /*font-weight: bold;*/
+}
+
+.email{
+  margin-top: -36px;
+}
+
+.circle{
+  width: 64px;
+  margin-top: -110px;
+  border-radius: 100%;
+}
+
+#perfil{
+  border-radius: 100% !important;
+}
+
+li.rx {
+  text-indent: 0 !important;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.sidenav-trigger{
+  position: fixed;
+  z-index: 11;
+}
+
+.imgcode{
+  padding: 0;
+  margin: 0;
+  /*width: 100vw;*/
+  height: 100vh;
+  background-image: url(../img/code.JPG); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#bkgImg{
+  background-color:  rgba(0,0,0,0.26);
+}
+
+.timmana{
+  font-family: 'Aldrich', sans-serif;
+  font-weight: bold;
+}
+
+.btns{
+  font-family: 'Aldrich', sans-serif;
+}
+
+.accordion .card {
+ border: 1px solid rgba(0,0,0,.125) !important;
+ border-radius: .25rem !important; 
+ margin-bottom: 3px;
+ cursor: pointer;
+}
+
+.h6, h6{
+ margin: .2rem !important;
+}
+
+button .btn {
+  padding: 0 !important;
+}
+
+.t_ftr{ font-size:.6rem; margin: 0;}
+
+.rodape{text-align: center;}
+
+.languages li{
+  list-style-image: url(../img/php.png);
+}
+
+.banco li{
+  list-style-image: url(../img/banco.png);
+}
+
+.ferramentas li{
+  list-style-image: url(../img/hammer.png);
+}
+.item::before {
+  margin-top: 2%;
+}
+
+textarea{
+  resize: none;
+}
+
+label{
+  font-weight: bold;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.24) !important;
+  border-color: none !important;
+}
+
+
+
+
+
